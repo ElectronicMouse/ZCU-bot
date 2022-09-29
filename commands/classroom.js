@@ -23,7 +23,7 @@ module.exports = {
             try {
                 let reply = "odkaz na mapy: " + data.mistnostInfo[0].urlBudova;
                 if (reply.length == 0) {
-                    interaction.reply("Eng: can´t read the file it might not exist, look if your arguments are in correct order with !help predmet.\nČj: nemohu načíst daný soubor, je možné že neexistuje, koukněte se také jestli jsou argumenty pro hledání ve správném pořadí pomocí příkazu !help predmet.");
+                    interaction.reply("Eng: can´t read the file it might not exist, look if your arguments are correct.\nČj: nemohu načíst daný soubor, je možné že neexistuje, koukněte se také jestli jsou argumenty správné.");
                 }
                 if (reply.length > 0) {
                     interaction.reply(reply);
