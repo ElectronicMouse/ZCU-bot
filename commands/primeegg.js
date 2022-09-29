@@ -3,8 +3,8 @@ const { SlashCommandBuilder, AttachmentBuilder, EmbedBuilder } = require('discor
 const fetch = require('node-fetch');
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('eastereggu')
-        .setDescription('hehe'),
+        .setName('easteregg')
+        .setDescription(''),
     async execute(interaction) {
 
         const exampleEmbed = new EmbedBuilder()
