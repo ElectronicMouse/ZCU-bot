@@ -52,7 +52,7 @@ module.exports = {
                     if (repl.includes("null",)) {
                         reply = repl.replace(/null/g, "")
                         if (reply.length == 0) {
-                            interaction.reply("Eng: can´t read the file it might not exist, look if your arguments are in correct order with !help predmet.\nČj: nemohu načíst daný soubor, je možné že neexistuje, koukněte se také jestli jsou argumenty pro hledání ve správném pořadí pomocí příkazu !help predmet.")
+                            interaction.reply("Eng: can´t read the file it might not exist, look if your arguments are correct.\nČj: nemohu načíst daný soubor, je možné že neexistuje, koukněte se také jestli jsou argumenty správné.")
                         }
                         if (reply.length > 0) {
                             if (reply.length < 1997) { interaction.reply(reply) }
